@@ -13,7 +13,7 @@ BACKSPACE_KEY = 8
 
 # Make a new log for each day
 todays_date = datetime.now().strftime('%Y-%b-%d')
-file_name = 'C:\\Users\\<user>\\logs\\{0}.txt'.format(todays_date)
+file_name = 'C:\\Users\\<user>\\keepa\\logs\\{0}.txt'.format(todays_date)
 
 current_window = ''
 line_buffer = ''
